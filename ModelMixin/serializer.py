@@ -6,4 +6,4 @@ class ModelMixinSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = ModelMixin
-        fields =['name', 'roll', 'department', 'subject']
+        fields =['id','name', 'roll', 'department', 'subject']
